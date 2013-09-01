@@ -1,0 +1,53 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Barnteamets fikalista</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="styles/main.css">
+    </head>
+    <body>
+
+        <header id="header"></header>
+        <div id="list"></div>
+
+        <script type="text/x-underscore-template" id="list-template">
+            <ul>
+                <% for(var i in persons) { %>
+                    <li class="<%= persons[i].active() === true ? 'is-active' : '' %>">
+                        <%= persons[i].name %>
+                    </li>
+                <% } %>
+            </ul>
+        </script>
+
+        <script type="text/x-underscore-template" id="header-template">
+            <p class="home">
+                <a href="/">Barnfika.nu</a>
+            </p>
+            <p href="/" class="next">
+                Nästa fika om <%= daysLeft %>d, <%= hoursLeft %>h, <%= minutesLeft %>m och <%= secondsLeft %>s.
+            </p>
+        </script>
+
+        <!-- build:js scripts/app.js -->
+        <script src="components/jquery/jquery.js"></script>
+        <script src="components/underscore/underscore.js"></script>
+        <script src="components/datejs/build/date-sv-SE.js"></script>
+
+        <script src="scripts/constants.js"></script>
+        <script src="scripts/person.js"></script>
+        <script src="scripts/list_view.js"></script>
+        <script src="scripts/header_view.js"></script>
+        <script src="scripts/date_helper.js"></script>
+        <script src="scripts/app.js"></script>
+        <script src="scripts/run.js"></script>
+        <!-- endbuild -->
+
+</body>
+</html>
