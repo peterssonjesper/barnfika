@@ -14,5 +14,5 @@ var PERSON_LIST = [
 	"Fredrik"
 ];
 
-var INIT_DATE = new Date("2 jan 2013 14:00");
+var INIT_DATE = new Date("2 jan 2013 14:30");
 var MISSED_OCCATIONS = 2;

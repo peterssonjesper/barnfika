@@ -23,7 +23,7 @@ var DateHelper = function() {
 	this.getNextDate = function() {
 		var next = new Date().next().wednesday();
 		next.setHours(15);
-		next.setMinutes(0);
+		next.setMinutes(30);
 		next.setSeconds(0);
 		if(next - (new Date()) >= 3600*24*7*1000) {
 			next -= 3600*24*7*1000;
