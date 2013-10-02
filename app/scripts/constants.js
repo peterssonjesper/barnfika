@@ -1,18 +1,19 @@
 var PERSON_LIST = [
 	"Fanny",
 	"Björn",
-	"Emil",
-	"Per",
 	"Martin",
+	"Per",
+	"Emil",
 	"Erik",
 	"Malin",
 	"Ali",
 	"Nina",
-	"Matilda",
+	"Fredrik",
 	"Jesper",
+	"Matilda",
 	"Petter",
-	"Fredrik"
+	"Johan"
 ];
 
 var INIT_DATE = new Date("3 jan 2013 09:00");
-var MISSED_OCCATIONS = 2;
+var MISSED_OCCATIONS = 0;
