@@ -2,7 +2,7 @@ var PERSON_LIST = [
 	"Fanny",
 	"Björn",
 	"Martin",
-	"Per",
+	"Emma",
 	"Emil",
 	"Erik",
 	"Malin",
