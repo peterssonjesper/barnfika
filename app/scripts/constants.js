@@ -1,7 +1,7 @@
 var PERSON_LIST = [
 	"Björn",
-	"Matilda",
 	"Emma",
+	"Matilda",
 	"Emil",
 	"Erik",
 	"Malin",
@@ -9,12 +9,11 @@ var PERSON_LIST = [
 	"Nina",
 	"Martin",
 	"Emil Ö",
-	"Fredrik",
-	"Jesper",
 	"Petter",
 	"Johan",
-	"Monika"
+	"Monika",
+	"Simon"
 ];
 
-var INIT_DATE = new Date("3 jan 2013 09:00");
-var MISSED_OCCATIONS = 1;
+var INIT_DATE = new Date("20 mars 2014 09:00");
+var MISSED_OCCATIONS = -1;
