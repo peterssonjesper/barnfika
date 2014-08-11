@@ -6,15 +6,17 @@ var PERSON_LIST = [
 	"Erik",
 	"Malin",
 	"Ali",
+	"P2r",
 	"Nina",
 	"Martin",
 	"Emil Ö",
-	"Petter",
+
 	"Johan",
 	"Monika",
 	"Simon",
-        "Petter"
+        "Petter",
+	"Rickard"
 ];
 
 var INIT_DATE = new Date("20 mars 2014 09:00");
-var MISSED_OCCATIONS = 2;
+var MISSED_OCCATIONS = 6;
